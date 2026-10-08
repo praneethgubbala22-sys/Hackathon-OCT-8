@@ -8,10 +8,11 @@ public class BankAccount {
 
 
     public BankAccount(long accountNumber, String accountHolderName, double balance) {
+        System.out.println("======--- WELCOME TO THE BANK-ACCOUNT MANAGEMENT SYSTEM--- ======");
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
         this.balance = balance;
-        System.out.println("======--- WELCOME TO THE BANK-ACCOUNT MANAGEMENT SYSTEM--- ======");
+        
     }
 
     public void deposit(double amount) {
